@@ -1,3 +1,15 @@
+> **本仓库说明**
+>
+> 这是 [Tencent/WeKnora](https://github.com/Tencent/WeKnora) 的**完整源码镜像**（保留全部提交历史与标签），
+> 在 `deploy-local/` 下附加了本地私有化部署层：一键脚本、配置模板、备份恢复、7 个实测踩坑记录。
+> **未修改任何业务源码。**
+>
+> 想直接在自己电脑上跑起来，请看 👉 [`deploy-local/README.md`](deploy-local/README.md)
+>
+> ```bash
+> bash deploy-local/setup.sh    # 5 个容器 + 本地 Ollama 模型，一条命令
+> ```
+
 <p align="center">
   <a href="https://weknora.weixin.qq.com">
     <picture>

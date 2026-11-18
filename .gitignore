@@ -63,3 +63,20 @@ miniprogram/project.private.config.json
 
 # Locally built BrowserSkill runtime and extension bundles
 /artifacts/browserskill/
+
+# ==== 本地部署层（deploy-local）====
+# 备份产物含模型 API Key 与密码哈希，绝不入库
+/backups/
+*.dump
+*.tar.gz
+
+# 本地运行数据：上传文档、数据库文件、日志，均不应上传
+/data/
+/uploads/
+/logs/
+
+# 编辑器 / 系统杂项
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
